@@ -1,0 +1,57 @@
+body {
+    background-color: #FDEEDC;
+  }
+  .portimg{
+  opacity: 1.0;
+  filter: drop-shadow(10px 10px 40px #E38B29);
+
+
+}
+.txt-long{
+  padding: 10%;
+}
+.txt-font{
+  font-family:  'Lato', sans-serif;
+}
+.txt{
+  color: #F1A661;
+  opacity: 1.0;
+  text-shadow: 2px 2px 5px #FFD8A9;
+}
+.test{
+  opacity: 1.0;
+}
+.test:hover{
+  animation-name: test;
+  position: relative;
+  animation-duration: 4s;
+}
+.portimg:hover{
+  animation-name: İmage;
+  position: relative;
+  animation-duration: 2s;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FDEED2 ;
+  color: #2C3639;
+  padding: 1%;
+  text-align: center;
+}
+@keyframes test {
+  0%   {left:0px; top:0px; opacity: 1.0;}
+  25%  {left:0px; top:200px; opacity: 1.0;}
+  50%  {left:0px; top:200px; opacity: 1.0;}
+  75%  {left:0px; top:200px; opacity: 1.0;}
+  100% {left:0px; top:0px; opacity: 1.0;}
+}
+  @keyframes İmage {
+    0%   {left:0px; top:0px; opacity: 1.0;}
+    25%  {left:0px; top:-200px; opacity: 1.0;}
+    50%  {left:0px; top:-200px; opacity: 1.0;}
+    75%  {left:0px; top:-200px; opacity: 1.0;}
+    100% {left:0px; top:0px; opacity: 1.0;}
+  }
