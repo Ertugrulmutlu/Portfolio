@@ -4,8 +4,27 @@ body {
   .portimg{
   opacity: 1.0;
   filter: drop-shadow(10px 10px 40px #E38B29);
-
-
+}
+.icon_linedin{
+  filter: drop-shadow(5px 5px 5px #0072b1);
+}
+.icon_linedin:hover{
+  animation-name: icon_linkedin;
+  animation-duration: 2s;
+}
+.icon_github{
+  filter: drop-shadow(5px 5px 5px #171515);
+}
+.icon_github:hover{
+  animation-name: icon_github;
+  animation-duration: 2s;
+}
+.icon_instagram{
+  filter: drop-shadow(5px 5px 5px #E38B29);
+}
+.icon_instagram:hover{
+  animation-name: icon_instagram;
+  animation-duration: 2s;
 }
 .txt-long{
   padding: 10%;
@@ -40,6 +59,31 @@ body {
   color: #2C3639;
   padding: 1%;
   text-align: center;
+}
+a:active, a:focus {
+  outline: 0;
+  border: none;
+}
+@keyframes icon_linkedin {
+  0%   {filter: drop-shadow(0px 0px 0px #0072b1 );}
+  25%  {filter: drop-shadow(10px 20px 80px #0072b1 );}
+  50%  {filter: drop-shadow(10px 20px 80px #0072b1 );}
+  75%  {filter: drop-shadow(10px 20px 80px #0072b1 );}
+  100% {filter: drop-shadow(0px 0px 0px #0072b1 );}
+}
+@keyframes icon_github {
+  0%   {filter: drop-shadow(0px 0px 0px #171515  );}
+  25%  {filter: drop-shadow(10px 10px 80px #171515  );}
+  50%  {filter: drop-shadow(10px 10px 80px #171515  );}
+  75%  {filter: drop-shadow(10px 10px 80px #171515  );}
+  100% {filter: drop-shadow(0px 0px 0px #171515  );}
+}
+@keyframes icon_instagram {
+  0%   {filter: drop-shadow(0px 0px 0px #3f729b  );}
+  25%  {filter: drop-shadow(10px 10px 80px #3f729b  );}
+  50%  {filter: drop-shadow(10px 10px 80px #3f729b  );}
+  75%  {filter: drop-shadow(10px 10px 80px #3f729b  );}
+  100% {filter: drop-shadow(0px 0px 0px #3f729b  );}
 }
 @keyframes test {
   0%   {left:0px; top:0px; opacity: 1.0;}
