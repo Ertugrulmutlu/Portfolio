@@ -30,7 +30,7 @@ body, html {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: rgb(255, 255, 255);
     font-family: 'Roboto Slab', serif;
-    font-size: 400%;
+    font-size: 300%;
     border: 30px solid #adacaccc;
     transform: translate(-50%, -50%);
     width: 300px;
@@ -47,8 +47,8 @@ body, html {
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-      typing 5s steps(40, end),
-      blink-caret .5s step-end infinite;
+      typing 2.5s steps(40, end),
+      blink-caret .2s step-end infinite;
   }
   
   /* The typing effect */
