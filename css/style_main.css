@@ -78,7 +78,7 @@ body, html {
     top: 150%;
     right: 100%;
     opacity: 1;
-    text-shadow: 7px 11px black;
+    text-shadow: 7px 11px rgba(58, 58, 58, 0.315);
     
   }
   .text_3 {
@@ -93,7 +93,7 @@ body, html {
     top: 250%;
     left: 100%;
     opacity: 1;
-    text-shadow: 7px 11px black;
+    text-shadow: 7px 11px rgba(58, 58, 58, 0.315);
   }
   .text_3_lower {
     color: rgb(255, 255, 255);
