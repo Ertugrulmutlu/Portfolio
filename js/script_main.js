@@ -1,26 +1,23 @@
 
 $(window).scroll(function(){
     var scroll = $(window).scrollTop();
-    console.log("scroll : " + scroll)
-    if(scroll >=300 & scroll <= 600){
-        $('.text_2').css({
-            opacity:  (scroll /1300)
-        })
+    var width = window.screen.availWidth;
+    var width_x = width/3
+    console.log(width)
+    console.log("scroll : "+ scroll)
+    if (scroll > width_x & scroll < width_x*2){
+        $('.text_2').animate({
+            left:  '50%'
+
+        },"slow")  
     }
-    if(scroll ==600){
-        $('.text_2').css({
-            opacity:  (1)
-        })  
+    if (scroll > width_x*2){
+        $('.text_3').animate({
+            left:  '50%'
+        },"slow")  
+        $('.text_3_lower').animate({
+            left:  '56%'
+        },"slow") 
     }
-    if(scroll >=900 & scroll <= 1500){
-        $('.text_3').css({
-            opacity: (scroll/2400)
-        })
-    }
-    
-    if(scroll == 1900){
-        $('.text_3').css({
-            opacity: (1)
-        })  
-    }
+     
 })

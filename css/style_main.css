@@ -19,49 +19,26 @@ body, html {
   
   /* Images used */
   
-  .img1 { 
-    background-image: url("images/hello_1.jpg"); filter: blur(10px);  }
-  .img2 { background-image: url("images/who_am_ı.jpg"); filter: blur(10px); }
-  .img3 { background-image: url("images/contact_1.jpg"); filter: blur(10px);   }
+  .img1 { background-image: url("images/hello_2.jpg"); filter: blur(3px);  }
+  .img2 { background-image: url("images/who_am_ı_2.jpg"); filter: blur(3px); }
+  .img3 { background-image: url("images/contact_1.jpg"); filter: blur(3px);   }
   
   /* Position text in the middle of the page/image */
-  .text_spec{
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: rgb(255, 255, 255);
+  .animation h1{
+    color: white; 
     font-family: 'Roboto Slab', serif;
-    font-size: 300%;
-    border: 30px solid #adacaccc;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    padding: 20px;
-    text-align: left;
+    font-size: 400%; 
+    white-space: nowrap;
+    overflow: hidden;
+    width: 160px;
+    animation: title 2.5s steps(40, end); 
+    margin-bottom: 40px;
+  
   }
   
-  .typewriter h1 {
-    color: rgb(255, 255, 255);
-    font-family: 'Roboto Slab', serif;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(212, 202, 184); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 2.5s steps(40, end),
-      blink-caret .2s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 50% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(212, 202, 184) }
-  }
+  @keyframes title{ 
+    from { width: 0;}
+  } 
 
   .text_1 {
     position:absolute; /* Stay fixed */
@@ -81,23 +58,54 @@ body, html {
     left: 50%;
     color: rgb(255, 255, 255);
     font-family: 'Roboto Slab', serif;
-    font-size: 200%;
+    font-size: 170%;
     transform: translate(-50%, -50%);
     width: 500px;
     padding: 20px;
     text-align: center;
+    
   }
   .text_2 {
+    filter: brightness(100);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    font-size: 300%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
     position:absolute; /* Stay fixed */
     top: 150%;
-    left: 50%;
-    opacity: 0;
+    right: 100%;
+    opacity: 1;
+    text-shadow: 7px 11px black;
+    
   }
   .text_3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    font-size: 300%;
+    transform: translate(-50%, -50%);
+    width: 345px;
+    padding: 20px;
+    text-align: left;
     position:absolute; /* Stay fixed */
     top: 250%;
-    left: 50%;
-    opacity: 0;
-
+    left: 100%;
+    opacity: 1;
+    text-shadow: 7px 11px black;
+  }
+  .text_3_lower {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    font-size: 100%;
+    transform: translate(-50%, -50%);
+    width: 345px;
+    padding: 20px;
+    text-align: left;
+    position:absolute; /* Stay fixed */
+    top: 255%;
+    left: 60%;
+    opacity: 1;
   }
 
