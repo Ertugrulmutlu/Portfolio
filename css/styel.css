@@ -18,6 +18,15 @@
         font-family: 'Roboto Slab', serif;
         font-style: italic;
     }
+    .text-spec:hover{
+        animation: up-down 0.5s;
+    }
+    @keyframes up-down {
+        0% {margin-top: 8%;}
+        10%{margin-top: 9%;}
+        25%{margin-top: 10%;}
+        50% {margin-top: 9%;}
+    }
     .span-spec{
         font-size: 150%;
         margin-top: 45%;
@@ -28,6 +37,14 @@
     .image-spec{
         margin-top: 5%;
         margin-left: 15%;
+        
+    }
+    .image-spec:hover{
+        animation: rotate 2.5s infinite;
+    }
+    @keyframes rotate {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
     }
     .bordere{
         border: 5px solid red;
@@ -38,6 +55,9 @@
         background-color:transparent; 
         border-radius: 18%; 
         text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-spec:hover{
+        opacity: 0.5;
     }
     .Icon-imp-1{
         margin-left: 35%;
@@ -128,6 +148,16 @@
         font-family: 'Roboto Slab', serif;
         font-style: italic;
     }
+    .text-spec:hover{
+        animation: up-down 0.5s 1;
+    }
+    @keyframes up-down {
+        0% {margin-top: 8%;}
+        10%{margin-top: 9%;}
+        25%{margin-top: 10%;}
+        50% {margin-top: 9%;}
+        100% {margin-top: 8%;}
+    }
     .span-spec{
         font-size: 150%;
         margin-top: 50%;
@@ -139,6 +169,13 @@
         margin-top: 5%;
         margin-left: 15%;
     }
+    .image-spec:hover{
+        animation: rotate 2.5s 1;
+    }
+    @keyframes rotate {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
+    }
     .bordere{
         border: 5px solid red;
         
@@ -148,6 +185,9 @@
         background-color:transparent; 
         border-radius: 18%; 
         text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-spec:hover{
+        opacity: 0.5;
     }
     .Icon-imp-1{
         margin-left: 23%;
@@ -237,6 +277,15 @@
         font-family: 'Roboto Slab', serif;
         font-style: italic;
     }
+    .text-spec:hover{
+        animation: up-down 0.5s;
+    }
+    @keyframes up-down {
+        0% {margin-top: 8%;}
+        10%{margin-top: 9%;}
+        25%{margin-top: 10%;}
+        50% {margin-top: 9%;}
+    }
     .span-spec{
         font-size: 150%;
         margin-top: 50%;
@@ -247,6 +296,13 @@
     .image-spec{
         margin-top: 5%;
         margin-left: 5%;
+    }
+    .image-spec:hover{
+        animation: rotate 2.5s 1;
+    }
+    @keyframes rotate {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
     }
     .bordere{
         border: 5px solid red;
@@ -346,6 +402,15 @@
         font-family: 'Roboto Slab', serif;
         font-style: italic;
     }
+    .text-spec:hover{
+        animation: up-down 0.5s;
+    }
+    @keyframes up-down {
+        0% {margin-top: 8%;}
+        10%{margin-top: 9%;}
+        25%{margin-top: 10%;}
+        50% {margin-top: 9%;}
+    }
     .span-spec{
         font-size: 150%;
         margin-top: 7%;
@@ -356,7 +421,13 @@
     .image-spec{
         margin-top: 5%;
         margin-left: 15%;
-
+    }
+    .image-spec:hover{
+        animation: rotate 2.5s 1;
+    }
+    @keyframes rotate {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
     }
     .bordere{
         border: 5px solid red;
@@ -456,6 +527,15 @@
         font-family: 'Roboto Slab', serif;
         font-style: italic;
     }
+    .text-spec:hover{
+        animation: up-down 0.5s;
+    }
+    @keyframes up-down {
+        0% {margin-top: 8%;}
+        10%{margin-top: 9%;}
+        25%{margin-top: 10%;}
+        50% {margin-top: 9%;}
+    }
     .span-spec{
         font-size: 150%;
         margin-top: 7%;
@@ -466,6 +546,13 @@
     .image-spec{
         margin-top: 6%;
         margin-left: 11%;
+    }
+    .image-spec:hover{
+        animation: rotate 2.5s 1;
+    }
+    @keyframes rotate {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
     }
     .bordere{
         border: 5px solid red;
@@ -565,6 +652,15 @@
         font-family: 'Roboto Slab', serif;
         font-style: italic;
     }
+    .text-spec:hover{
+        animation: up-down 0.5s;
+    }
+    @keyframes up-down {
+        0% {margin-top: 8%;}
+        10%{margin-top: 9%;}
+        25%{margin-top: 10%;}
+        50% {margin-top: 9%;}
+    }
     .span-spec{
         font-size: 150%;
         margin-top: 7%;
@@ -575,6 +671,13 @@
     .image-spec{
         margin-top: 7%;
         margin-left: 5%;
+    }
+    .image-spec:hover{
+        animation: rotate 2.5s 1;
+    }
+    @keyframes rotate {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
     }
     .bordere{
         border: 5px solid red;
@@ -674,6 +777,15 @@
         font-family: 'Roboto Slab', serif;
         font-style: italic;
     }
+    .text-spec:hover{
+        animation: up-down 0.5s;
+    }
+    @keyframes up-down {
+        0% {margin-top: 8%;}
+        10%{margin-top: 9%;}
+        25%{margin-top: 10%;}
+        50% {margin-top: 9%;}
+    }
     .span-spec{
         font-size: 150%;
         margin-top: 7%;
@@ -684,6 +796,13 @@
     .image-spec{
         margin-top: 5%;
         margin-left: 15%;
+    }
+    .image-spec:hover{
+        animation: rotate 2.5s 1;
+    }
+    @keyframes rotate {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
     }
     .bordere{
         border: 5px solid red;
