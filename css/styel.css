@@ -206,7 +206,16 @@
         background-color: rgb(126, 147, 151);
         transform: rotate(8941651891deg);
     }
+    .a {
+        color: rgb(24, 23, 23);
+        text-decoration: none;
+    }
     
+    .a:hover {
+        color: rgb(24, 23, 23); 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
     .body-bg-color{
@@ -306,7 +315,16 @@
         background-color: rgb(126, 147, 151);
         transform: rotate(8941651891deg);
     }
+    .a {
+        color: rgb(24, 23, 23);
+        text-decoration: none;
+    }
     
+    .a:hover {
+        color: rgb(24, 23, 23); 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
 }
 @media screen and (min-width:425px) and (max-width: 767px) {
     .body-bg-color{
@@ -406,6 +424,16 @@
         background-color: rgb(126, 147, 151);
         transform: rotate(8941651891deg);
     } 
+    .a {
+        color: rgb(24, 23, 23);
+        text-decoration: none;
+    }
+    
+    .a:hover {
+        color: rgb(24, 23, 23); 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
 }
 @media screen and (min-width:375px) and (max-width: 424px) {
     .body-bg-color{
@@ -505,6 +533,16 @@
         background-color: rgb(126, 147, 151);
         transform: rotate(8941651891deg);
     } 
+    .a {
+        color: rgb(24, 23, 23);
+        text-decoration: none;
+    }
+    
+    .a:hover {
+        color: rgb(24, 23, 23); 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
 }
 @media screen and (min-width:320px) and (max-width: 374px) {
     .body-bg-color{
@@ -604,6 +642,16 @@
         background-color: rgb(126, 147, 151);
         transform: rotate(8941651891deg);
     } 
+    .a {
+        color: rgb(24, 23, 23);
+        text-decoration: none;
+    }
+    
+    .a:hover {
+        color: rgb(24, 23, 23); 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
 }
 @media screen and (min-width:1px) and (max-width: 319px) {
     .body-bg-color{
@@ -703,4 +751,14 @@
         background-color: rgb(126, 147, 151);
         transform: rotate(8941651891deg);
     } 
+    .a {
+        color: rgb(24, 23, 23);
+        text-decoration: none;
+    }
+    
+    .a:hover {
+        color: rgb(24, 23, 23); 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
 }
