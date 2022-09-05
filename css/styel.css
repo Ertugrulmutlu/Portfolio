@@ -1,0 +1,698 @@
+
+
+@media screen and (min-width:1440px) {
+    .body-bg-color{
+        background-color: #c5c2c2;
+    }
+    body {
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+      }
+      
+      body::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+      }
+    .text-spec{
+        font-size: 600%;
+        margin-top: 7%;
+        margin-right: 10%;
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+    }
+    .span-spec{
+        font-size: 100%;
+        margin-top: 7%;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+    
+    .image-spec{
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    .bordere{
+        border: 5px solid red;
+        
+    }
+    .Icon-spec{
+        font-size: 1000%; 
+        background-color:transparent; 
+        border-radius: 18%; 
+        text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-imp-1{
+        margin-left: 35%;
+    }
+    .rectangle-1 {
+        position:fixed;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(182, 179, 179);
+        transform: rotate(25deg);
+    }
+    .rectangle-2 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 9%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(51, 47, 47);
+        transform: rotate(-15deg);
+    }
+    .rectangle-3 {
+        position:fixed;
+        margin-top: 3%;
+        margin-left: 37%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(141, 130, 130);
+        transform: rotate(125deg);
+    }
+    .rectangle-4 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 42%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(207, 180, 180);
+        transform: rotate(341561deg);
+    }
+    .rectangle-5 {
+        position:fixed;
+        margin-top: 38%;
+        margin-left: 72%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(153, 177, 148);
+        transform: rotate(16165651deg);
+    }
+    .rectangle-6 {
+        position:fixed;
+        margin-top: 4%;
+        margin-left: 70%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(126, 147, 151);
+        transform: rotate(8941651891deg);
+    }
+    
+}
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    .body-bg-color{
+        background-color: #c5c2c2;
+    }
+    body {
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+      }
+      
+      body::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+      }
+      .text-spec{
+        font-size: 550%;
+        margin-top: 7%;
+        margin-right: 10%;
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+    }
+    .span-spec{
+        font-size: 100%;
+        margin-top: 7%;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+    
+    .image-spec{
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+    .bordere{
+        border: 5px solid red;
+        
+    }
+    .Icon-spec{
+        font-size: 1000%; 
+        background-color:transparent; 
+        border-radius: 18%; 
+        text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-imp-1{
+        margin-left: 23%;
+    }
+    .rectangle-1 {
+        position:fixed;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(182, 179, 179);
+        transform: rotate(25deg);
+    }
+    .rectangle-2 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 9%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(51, 47, 47);
+        transform: rotate(-15deg);
+    }
+    .rectangle-3 {
+        position:fixed;
+        margin-top: 3%;
+        margin-left: 37%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(141, 130, 130);
+        transform: rotate(125deg);
+    }
+    .rectangle-4 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 42%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(207, 180, 180);
+        transform: rotate(341561deg);
+    }
+    .rectangle-5 {
+        position:fixed;
+        margin-top: 38%;
+        margin-left: 72%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(153, 177, 148);
+        transform: rotate(16165651deg);
+    }
+    .rectangle-6 {
+        position:fixed;
+        margin-top: 4%;
+        margin-left: 70%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(126, 147, 151);
+        transform: rotate(8941651891deg);
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .body-bg-color{
+        background-color: #c5c2c2;
+    }
+    body {
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+      }
+      
+      body::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+      }
+      .text-spec{
+        font-size: 450%;
+        margin-top: 7%;
+        margin-left: 7%;
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+    }
+    .span-spec{
+        font-size: 100%;
+        margin-top: 7%;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+    
+    .image-spec{
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+    .bordere{
+        border: 5px solid red;
+        
+    }
+    .Icon-spec{
+        font-size: 1000%; 
+        background-color:transparent; 
+        border-radius: 18%; 
+        text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-imp-1{
+        margin-left: 23%;
+    }
+    .rectangle-1 {
+        position:fixed;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(182, 179, 179);
+        transform: rotate(25deg);
+    }
+    .rectangle-2 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 9%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(51, 47, 47);
+        transform: rotate(-15deg);
+    }
+    .rectangle-3 {
+        position:fixed;
+        margin-top: 3%;
+        margin-left: 37%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(141, 130, 130);
+        transform: rotate(125deg);
+    }
+    .rectangle-4 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 42%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(207, 180, 180);
+        transform: rotate(341561deg);
+    }
+    .rectangle-5 {
+        position:fixed;
+        margin-top: 38%;
+        margin-left: 72%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(153, 177, 148);
+        transform: rotate(16165651deg);
+    }
+    .rectangle-6 {
+        position:fixed;
+        margin-top: 4%;
+        margin-left: 70%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(126, 147, 151);
+        transform: rotate(8941651891deg);
+    }
+    
+}
+@media screen and (min-width:425px) and (max-width: 767px) {
+    .body-bg-color{
+        background-color: #c5c2c2;
+    }
+    body {
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+      }
+      
+      body::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+      }
+      .text-spec{
+        font-size: 450%;
+        margin-top: 7%;
+        margin-left: 7%;
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+    }
+    .span-spec{
+        font-size: 100%;
+        margin-top: 7%;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+    
+    .image-spec{
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+    .bordere{
+        border: 5px solid red;
+        
+    }
+    .Icon-spec{
+        font-size: 1000%; 
+        background-color:transparent; 
+        border-radius: 18%; 
+        text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-imp-1{
+        margin-left: 23%;
+    }
+    .rectangle-1 {
+        position:fixed;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(182, 179, 179);
+        transform: rotate(25deg);
+    }
+    .rectangle-2 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 9%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(51, 47, 47);
+        transform: rotate(-15deg);
+    }
+    .rectangle-3 {
+        position:fixed;
+        margin-top: 3%;
+        margin-left: 37%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(141, 130, 130);
+        transform: rotate(125deg);
+    }
+    .rectangle-4 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 42%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(207, 180, 180);
+        transform: rotate(341561deg);
+    }
+    .rectangle-5 {
+        position:fixed;
+        margin-top: 38%;
+        margin-left: 72%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(153, 177, 148);
+        transform: rotate(16165651deg);
+    }
+    .rectangle-6 {
+        position:fixed;
+        margin-top: 4%;
+        margin-left: 70%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(126, 147, 151);
+        transform: rotate(8941651891deg);
+    } 
+}
+@media screen and (min-width:375px) and (max-width: 424px) {
+    .body-bg-color{
+        background-color: #c5c2c2;
+    }
+    body {
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+      }
+      
+      body::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+      }
+      .text-spec{
+        font-size: 350%;
+        margin-top: 7%;
+        margin-left: 4%;
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+    }
+    .span-spec{
+        font-size: 100%;
+        margin-top: 7%;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+    
+    .image-spec{
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+    .bordere{
+        border: 5px solid red;
+        
+    }
+    .Icon-spec{
+        font-size: 1000%; 
+        background-color:transparent; 
+        border-radius: 18%; 
+        text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-imp-1{
+        margin-left: 23%;
+    }
+    .rectangle-1 {
+        position:fixed;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(182, 179, 179);
+        transform: rotate(25deg);
+    }
+    .rectangle-2 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 9%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(51, 47, 47);
+        transform: rotate(-15deg);
+    }
+    .rectangle-3 {
+        position:fixed;
+        margin-top: 3%;
+        margin-left: 37%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(141, 130, 130);
+        transform: rotate(125deg);
+    }
+    .rectangle-4 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 42%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(207, 180, 180);
+        transform: rotate(341561deg);
+    }
+    .rectangle-5 {
+        position:fixed;
+        margin-top: 38%;
+        margin-left: 72%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(153, 177, 148);
+        transform: rotate(16165651deg);
+    }
+    .rectangle-6 {
+        position:fixed;
+        margin-top: 4%;
+        margin-left: 70%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(126, 147, 151);
+        transform: rotate(8941651891deg);
+    } 
+}
+@media screen and (min-width:320px) and (max-width: 374px) {
+    .body-bg-color{
+        background-color: #c5c2c2;
+    }
+    body {
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+      }
+      
+      body::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+      }
+      .text-spec{
+        font-size: 350%;
+        margin-top: 7%;
+        margin-left: 4%;
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+    }
+    .span-spec{
+        font-size: 100%;
+        margin-top: 7%;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+    
+    .image-spec{
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+    .bordere{
+        border: 5px solid red;
+        
+    }
+    .Icon-spec{
+        font-size: 1000%; 
+        background-color:transparent; 
+        border-radius: 18%; 
+        text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-imp-1{
+        margin-left: 23%;
+    }
+    .rectangle-1 {
+        position:fixed;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(182, 179, 179);
+        transform: rotate(25deg);
+    }
+    .rectangle-2 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 9%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(51, 47, 47);
+        transform: rotate(-15deg);
+    }
+    .rectangle-3 {
+        position:fixed;
+        margin-top: 3%;
+        margin-left: 37%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(141, 130, 130);
+        transform: rotate(125deg);
+    }
+    .rectangle-4 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 42%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(207, 180, 180);
+        transform: rotate(341561deg);
+    }
+    .rectangle-5 {
+        position:fixed;
+        margin-top: 38%;
+        margin-left: 72%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(153, 177, 148);
+        transform: rotate(16165651deg);
+    }
+    .rectangle-6 {
+        position:fixed;
+        margin-top: 4%;
+        margin-left: 70%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(126, 147, 151);
+        transform: rotate(8941651891deg);
+    } 
+}
+@media screen and (min-width:1px) and (max-width: 319px) {
+    .body-bg-color{
+        background-color: #c5c2c2;
+    }
+    body {
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll; 
+      }
+      
+      body::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+      }
+      .text-spec{
+        font-size: 300%;
+        margin-top: 7%;
+        margin-left: 4%;
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+    }
+    .span-spec{
+        font-size: 100%;
+        margin-top: 7%;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+    
+    .image-spec{
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+    .bordere{
+        border: 5px solid red;
+        
+    }
+    .Icon-spec{
+        font-size: 1000%; 
+        background-color:transparent; 
+        border-radius: 18%; 
+        text-shadow: #4e4e4e 8px 7.8px 20px;
+    }
+    .Icon-imp-1{
+        margin-left: 23%;
+    }
+    .rectangle-1 {
+        position:fixed;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(182, 179, 179);
+        transform: rotate(25deg);
+    }
+    .rectangle-2 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 9%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(51, 47, 47);
+        transform: rotate(-15deg);
+    }
+    .rectangle-3 {
+        position:fixed;
+        margin-top: 3%;
+        margin-left: 37%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(141, 130, 130);
+        transform: rotate(125deg);
+    }
+    .rectangle-4 {
+        position:fixed;
+        margin-top: 32%;
+        margin-left: 42%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(207, 180, 180);
+        transform: rotate(341561deg);
+    }
+    .rectangle-5 {
+        position:fixed;
+        margin-top: 38%;
+        margin-left: 72%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(153, 177, 148);
+        transform: rotate(16165651deg);
+    }
+    .rectangle-6 {
+        position:fixed;
+        margin-top: 4%;
+        margin-left: 70%;
+        height: 350px;
+        width: 450px;
+        background-color: rgb(126, 147, 151);
+        transform: rotate(8941651891deg);
+    } 
+}
