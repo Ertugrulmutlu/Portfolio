@@ -19,7 +19,7 @@
         font-style: italic;
     }
     .span-spec{
-        font-size: 100%;
+        font-size: 150%;
         margin-top: 45%;
         font-family: 'Roboto Slab', serif;
         width: 100%;
@@ -28,6 +28,7 @@
     .image-spec{
         margin-top: 5%;
         margin-left: 15%;
+        transform: rotate(-5deg);
     }
     .bordere{
         border: 5px solid red;
@@ -129,7 +130,7 @@
         font-style: italic;
     }
     .span-spec{
-        font-size: 100%;
+        font-size: 150%;
         margin-top: 50%;
         font-family: 'Roboto Slab', serif;
         width: 100%;
@@ -137,7 +138,8 @@
     
     .image-spec{
         margin-top: 5%;
-        margin-left: 12%;
+        margin-left: 15%;
+        transform: rotate(-5deg);
     }
     .bordere{
         border: 5px solid red;
@@ -238,7 +240,7 @@
         font-style: italic;
     }
     .span-spec{
-        font-size: 100%;
+        font-size: 150%;
         margin-top: 50%;
         font-family: 'Roboto Slab', serif;
         width: 100%;
@@ -246,7 +248,8 @@
     
     .image-spec{
         margin-top: 5%;
-        margin-left: 12%;
+        margin-left: 15%;
+        transform: rotate(-5deg);
     }
     .bordere{
         border: 5px solid red;
@@ -347,7 +350,7 @@
         font-style: italic;
     }
     .span-spec{
-        font-size: 100%;
+        font-size: 150%;
         margin-top: 7%;
         font-family: 'Roboto Slab', serif;
         width: 100%;
@@ -355,7 +358,8 @@
     
     .image-spec{
         margin-top: 5%;
-        margin-left: 12%;
+        margin-left: 15%;
+        transform: rotate(-5deg);
     }
     .bordere{
         border: 5px solid red;
@@ -456,15 +460,16 @@
         font-style: italic;
     }
     .span-spec{
-        font-size: 100%;
+        font-size: 150%;
         margin-top: 7%;
         font-family: 'Roboto Slab', serif;
         width: 100%;
     }
     
     .image-spec{
-        margin-top: 5%;
-        margin-left: 12%;
+        margin-top: 6%;
+        margin-left: 11%;
+        transform: rotate(-5deg);
     }
     .bordere{
         border: 5px solid red;
@@ -565,15 +570,16 @@
         font-style: italic;
     }
     .span-spec{
-        font-size: 100%;
+        font-size: 150%;
         margin-top: 7%;
         font-family: 'Roboto Slab', serif;
         width: 100%;
     }
     
     .image-spec{
-        margin-top: 5%;
-        margin-left: 7%;
+        margin-top: 7%;
+        margin-left: 5%;
+        transform: rotate(-5deg);
     }
     .bordere{
         border: 5px solid red;
@@ -674,7 +680,7 @@
         font-style: italic;
     }
     .span-spec{
-        font-size: 100%;
+        font-size: 150%;
         margin-top: 7%;
         font-family: 'Roboto Slab', serif;
         width: 100%;
@@ -682,7 +688,8 @@
     
     .image-spec{
         margin-top: 5%;
-        margin-left: 1%;
+        margin-left: 15%;
+        transform: rotate(-5deg);
     }
     .bordere{
         border: 5px solid red;
