@@ -1,10 +1,7 @@
 @media screen and (min-width:1440px) {
-      #section2 {
-       margin-top: 300%;
+      .space {
+       margin: 100%;
       }
-      #section3 {
-        margin-top: 300%;
-       }
       html {
         scroll-behavior: smooth;
       }
@@ -26,61 +23,29 @@
         
     }
     .text-imp{
-        position: sticky;
-        top: 50%;
-        left: 1%;
-    }
-    .text-imp-2{
-        position:sticky;
-        top: 53%;
+        margin-bottom: -80%;
     }
     .text-imp-1{
-        position:sticky;
-        top: 18%;
+        margin-bottom: -20%;
     }
 
     .text-spec{
         font-size: 600%;
+        
         font-family: 'Roboto Slab', serif;
         text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-    }
-    .text-h1{
-        font-size: 200%;
-        font-family: 'Roboto Slab', serif;
-        color:aliceblue;
-    }
-    .text-h1-imp{
-        position: absolute;
-        top: 75%;
-        left: 15%;
     }
     .text-p1{
         font-size: 150%;
-        margin-top: 10%;
+        
         font-family: 'Roboto Slab', serif;
         text-shadow: rgb(59, 43, 43);
     }
-    .text-p1-imp{
-        position: absolute;
-        text-align: center;
-        top: 75%;
-        left: 5%;
-    }
-    .slide-imp{
-        position: absolute;
-        margin-top: 5%;
-    }
-   
     .Icon-spec{
-        font-size: 2000%; 
+        font-size: 2000%;
+        
         -webkit-text-stroke-width: 5.5px; 
         text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-    }
-    .Icon-imp-1{
-        margin-left: -7%;
-    }
-    .Icon-imp-2{
-        margin-left: -7%;
     }
     .rectangle-1 {
         height: 350px;
@@ -172,12 +137,9 @@
     
 }
 @media screen and (min-width:1024px) and (max-width:1439px) {
-    #section2 {
-        margin-top: 300%;
+    .space {
+        margin: 100%;
        }
-       #section3 {
-         margin-top: 300%;
-        }
        html {
          scroll-behavior: smooth;
        }
@@ -199,61 +161,30 @@
          
      }
      .text-imp{
-         position: sticky;
-         top: 50%;
-         left: 1%;
-     }
-     .text-imp-2{
-         position:sticky;
-         top: 53%;
+         margin-bottom: -80%;
+         margin-left: -10%;
+
      }
      .text-imp-1{
-         position:sticky;
-         top: 18%;
+         margin-bottom: -20%;
      }
  
      .text-spec{
-         font-size: 600%;
+         font-size: 400%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .text-h1{
-         font-size: 200%;
-         font-family: 'Roboto Slab', serif;
-         color:aliceblue;
-     }
-     .text-h1-imp{
-         position: absolute;
-         top: 75%;
-         left: 15%;
      }
      .text-p1{
          font-size: 150%;
-         margin-top: 10%;
+         
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43);
      }
-     .text-p1-imp{
-         position: absolute;
-         text-align: center;
-         top: 75%;
-         left: 5%;
-     }
-     .slide-imp{
-         position: absolute;
-         margin-top: 5%;
-     }
-    
      .Icon-spec{
-         font-size: 2000%; 
+         font-size: 1100%;
+         
          -webkit-text-stroke-width: 5.5px; 
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .Icon-imp-1{
-         margin-left: -7%;
-     }
-     .Icon-imp-2{
-         margin-left: -7%;
      }
      .rectangle-1 {
          height: 350px;
@@ -342,14 +273,12 @@
          text-decoration:none; 
          cursor:pointer;  
      }
+     
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
-    #section2 {
-        margin-top: 300%;
+    .space {
+        margin: 100%;
        }
-       #section3 {
-         margin-top: 300%;
-        }
        html {
          scroll-behavior: smooth;
        }
@@ -371,61 +300,29 @@
          
      }
      .text-imp{
-         position: sticky;
-         top: 50%;
-         left: 1%;
-     }
-     .text-imp-2{
-         position:sticky;
-         top: 53%;
+         margin-bottom: -80%;
+         margin-left: -25%;
      }
      .text-imp-1{
-         position:sticky;
-         top: 18%;
+         margin-bottom: -20%;
      }
- 
+     .Icon-imp-1{
+        margin-left: -15%;
+     }
      .text-spec{
-         font-size: 600%;
+         font-size: 350%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .text-h1{
-         font-size: 200%;
-         font-family: 'Roboto Slab', serif;
-         color:aliceblue;
-     }
-     .text-h1-imp{
-         position: absolute;
-         top: 75%;
-         left: 15%;
      }
      .text-p1{
          font-size: 150%;
-         margin-top: 10%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43);
      }
-     .text-p1-imp{
-         position: absolute;
-         text-align: center;
-         top: 75%;
-         left: 5%;
-     }
-     .slide-imp{
-         position: absolute;
-         margin-top: 5%;
-     }
-    
      .Icon-spec{
-         font-size: 2000%; 
+         font-size: 1100%;
          -webkit-text-stroke-width: 5.5px; 
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .Icon-imp-1{
-         margin-left: -7%;
-     }
-     .Icon-imp-2{
-         margin-left: -7%;
      }
      .rectangle-1 {
          height: 350px;
@@ -516,12 +413,9 @@
      }
 }
 @media screen and (min-width:425px) and (max-width: 767px) {
-    #section2 {
-        margin-top: 300%;
+    .space {
+        margin: 200%;
        }
-       #section3 {
-         margin-top: 300%;
-        }
        html {
          scroll-behavior: smooth;
        }
@@ -543,61 +437,29 @@
          
      }
      .text-imp{
-         position: sticky;
-         top: 50%;
-         left: 1%;
-     }
-     .text-imp-2{
-         position:sticky;
-         top: 53%;
+         margin-bottom: -50%;
+         margin-left: 30%;
      }
      .text-imp-1{
-         position:sticky;
-         top: 18%;
+         margin-bottom: -20%;
      }
- 
+     .Icon-imp-1{
+        margin-left: 70%;
+     }
      .text-spec{
-         font-size: 600%;
+         font-size: 350%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .text-h1{
-         font-size: 200%;
-         font-family: 'Roboto Slab', serif;
-         color:aliceblue;
-     }
-     .text-h1-imp{
-         position: absolute;
-         top: 75%;
-         left: 15%;
      }
      .text-p1{
          font-size: 150%;
-         margin-top: 10%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43);
      }
-     .text-p1-imp{
-         position: absolute;
-         text-align: center;
-         top: 75%;
-         left: 5%;
-     }
-     .slide-imp{
-         position: absolute;
-         margin-top: 5%;
-     }
-    
      .Icon-spec{
-         font-size: 2000%; 
+         font-size: 1100%;
          -webkit-text-stroke-width: 5.5px; 
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .Icon-imp-1{
-         margin-left: -7%;
-     }
-     .Icon-imp-2{
-         margin-left: -7%;
      }
      .rectangle-1 {
          height: 350px;
@@ -686,14 +548,12 @@
          text-decoration:none; 
          cursor:pointer;  
      }
+     
 }
 @media screen and (min-width:375px) and (max-width: 424px) {
-    #section2 {
-        margin-top: 300%;
+    .space {
+        margin: 200%;
        }
-       #section3 {
-         margin-top: 300%;
-        }
        html {
          scroll-behavior: smooth;
        }
@@ -715,61 +575,29 @@
          
      }
      .text-imp{
-         position: sticky;
-         top: 50%;
-         left: 1%;
-     }
-     .text-imp-2{
-         position:sticky;
-         top: 53%;
+         margin-bottom: -50%;
+         margin-left: 25%;
      }
      .text-imp-1{
-         position:sticky;
-         top: 18%;
+         margin-bottom: -20%;
      }
- 
+     .Icon-imp-1{
+        margin-left: 55%;
+     }
      .text-spec{
-         font-size: 600%;
+         font-size: 300%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .text-h1{
-         font-size: 200%;
-         font-family: 'Roboto Slab', serif;
-         color:aliceblue;
-     }
-     .text-h1-imp{
-         position: absolute;
-         top: 75%;
-         left: 15%;
      }
      .text-p1{
          font-size: 150%;
-         margin-top: 10%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43);
      }
-     .text-p1-imp{
-         position: absolute;
-         text-align: center;
-         top: 75%;
-         left: 5%;
-     }
-     .slide-imp{
-         position: absolute;
-         margin-top: 5%;
-     }
-    
      .Icon-spec{
-         font-size: 2000%; 
+         font-size: 1100%;
          -webkit-text-stroke-width: 5.5px; 
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .Icon-imp-1{
-         margin-left: -7%;
-     }
-     .Icon-imp-2{
-         margin-left: -7%;
      }
      .rectangle-1 {
          height: 350px;
@@ -858,15 +686,11 @@
          text-decoration:none; 
          cursor:pointer;  
      }
-  
 }
 @media screen and (min-width:320px) and (max-width: 374px) {
-    #section2 {
-        margin-top: 300%;
+    .space {
+        margin: 200%;
        }
-       #section3 {
-         margin-top: 300%;
-        }
        html {
          scroll-behavior: smooth;
        }
@@ -888,61 +712,29 @@
          
      }
      .text-imp{
-         position: sticky;
-         top: 50%;
-         left: 1%;
-     }
-     .text-imp-2{
-         position:sticky;
-         top: 53%;
+         margin-bottom: -50%;
+         margin-left: 30%;
      }
      .text-imp-1{
-         position:sticky;
-         top: 18%;
+         margin-bottom: -20%;
      }
- 
+     .Icon-imp-1{
+        margin-left: 40%;
+     }
      .text-spec{
-         font-size: 600%;
+         font-size: 250%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .text-h1{
-         font-size: 200%;
-         font-family: 'Roboto Slab', serif;
-         color:aliceblue;
-     }
-     .text-h1-imp{
-         position: absolute;
-         top: 75%;
-         left: 15%;
      }
      .text-p1{
          font-size: 150%;
-         margin-top: 10%;
          font-family: 'Roboto Slab', serif;
          text-shadow: rgb(59, 43, 43);
      }
-     .text-p1-imp{
-         position: absolute;
-         text-align: center;
-         top: 75%;
-         left: 5%;
-     }
-     .slide-imp{
-         position: absolute;
-         margin-top: 5%;
-     }
-    
      .Icon-spec{
-         font-size: 2000%; 
+         font-size: 1100%;
          -webkit-text-stroke-width: 5.5px; 
          text-shadow: rgb(59, 43, 43) 13.2px 10.5px 16.7px;
-     }
-     .Icon-imp-1{
-         margin-left: -7%;
-     }
-     .Icon-imp-2{
-         margin-left: -7%;
      }
      .rectangle-1 {
          height: 350px;

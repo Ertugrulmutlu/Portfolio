@@ -727,11 +727,11 @@
       }
       #section2 {
         width: 100%;
-        height: 200%;
+        height: 100%;
       }
       #section3 {
         width: 100%;
-        height: 200%;
+        height: 100%;
        }
       html {
         scroll-behavior: smooth;
@@ -755,7 +755,7 @@
     }
     .text-imp-1{
         position:sticky;
-        top: 100%;
+        top: 50%;
     }
     .text-imp-2{
         position:sticky;
@@ -770,7 +770,7 @@
         top: 10%;
     }
     .Icon-imp-1{
-        position:-webkit-sticky;
+        position:relative;
         top: 48%;
 
     }
